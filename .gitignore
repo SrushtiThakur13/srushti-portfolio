@@ -1,1 +1,7 @@
 .DS_Store
+portfolio-site/node_modules/
+portfolio-site/.next/
+portfolio-site/out/
+*.env
+*.env.local
+
