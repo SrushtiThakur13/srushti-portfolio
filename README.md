@@ -1,28 +1,36 @@
-# Portfolio Projects – Srushti Thakur
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-Welcome to my data science and machine learning portfolio.  
-This repository contains featured projects across **AI, machine learning, forecasting, anomaly detection, NLP, and healthcare analytics**.
+## Getting Started
 
-## 📊 Featured Projects
-1. [E-Commerce Generative AI](./ecommerce-generative-ai) – Fine-tuned Falcon 7B LLM for e-commerce Q&A with memory optimization.  
-2. [Cancer Detection CNN](./cancer-detection-cnn) – Deep learning CNN model for automated cancer image classification.  
-3. [E-Commerce Demand Forecasting](./demand-forecasting) – Forecasting weekly demand using SageMaker + XGBoost.  
-4. [Real-Time Fraud Detection](./fraud-detection) – Anomaly detection in financial transactions with streaming pipelines.  
-5. [NLP Sentiment Analysis Engine](./sentiment-analysis) – Multilingual pipeline for social media and customer feedback.  
-6. [Time Series Forecasting Suite](./time-series-forecasting) – Forecasting platform for multiple KPIs across industries.
+First, run the development server:
 
----
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## 🛠️ Tech Highlights
-- **Languages:** Python, SQL, R, Rust  
-- **ML & AI:** TensorFlow, PyTorch, XGBoost, Transformers  
-- **Cloud:** AWS (SageMaker, Lambda, S3, Redshift), GCP, Azure  
-- **Visualization:** Tableau, Power BI, Streamlit  
-- **Data Engineering:** Spark, Airflow, dbt, Docker, Kubernetes  
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
----
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## 📬 Contact
-- **Email:** srushtithakur.ds@gmail.com  
-- **LinkedIn:** [linkedin.com/in/srushtithakur013](https://linkedin.com/in/srushtithakur013)  
-- **GitHub:** [github.com/SrushtiThakur13](https://github.com/SrushtiThakur13)
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
