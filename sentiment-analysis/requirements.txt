@@ -1,0 +1,7 @@
+transformers
+torch
+pandas
+matplotlib
+seaborn
+wordcloud
+scikit-learn
